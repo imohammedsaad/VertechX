@@ -4,7 +4,6 @@ from transformers import pipeline, BartTokenizer, BartForConditionalGeneration
 model_name = 'facebook/bart-large-cnn'
 tokenizer = BartTokenizer.from_pretrained(model_name)
 model = BartForConditionalGeneration.from_pretrained(model_name)
-summarizer = pipeline("summarization", model=model, tokenizer=tokenizer)
 
 def summarize_video(transcript):
     """

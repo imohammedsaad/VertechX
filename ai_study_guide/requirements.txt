@@ -1,0 +1,6 @@
+Flask
+requests
+youtube-dl
+transformers
+torch
+fpdf

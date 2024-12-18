@@ -1,6 +1,0 @@
-Flask==2.3.2
-PyPDF2==3.0.1
-yt-dlp==2024.05.18
-reportlab==3.6.1
-pytesseract==0.3.10
-Pillow==9.6.1  # Required for image processing with pytesseract
